@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เครื่องคำนวณหาค่ากัชนีมวลกาย (BMI)</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Mitr:wght@700&family=Noto+Sans+Thai:wght@100&display=swap"
+        rel="stylesheet">
+    <style>
+        /*Universal Selector*/
+        * {
+            font-family: 'Chakra Petch', sans-serif;
+            /* font-family: 'Chakra Petch' sans-serif; */
+        }
+
+        /*ID Selector*/
+        #Title {
+            color: black;
+            border: solid 2px black;
+            font-size: 30px;
+            font-weight: bold;
+            padding: 2px;
+            background-color: rgb(255, 115, 195);
+        }
+        /*HTML Element Selector*/
+        p {
+            color: rgb(0, 0, 0);
+            font-size: 10px;
+        }
+        /*Class Selector*/
+        .input-num{
+            border: solid 1px black;
+            width: 50px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <span id="Title">เครื่องคำนวณหาค่ากัชนีมวลกาย (BMI)</span>
+    <p>การหาค่าดัชนีมวลกาย (Body Mass Index : BMI) <br>
+        คือเป็นมาตรการที่ใช้ประเมินภาวะอ้วนและผอมในผู้ใหญ่ <br>
+        ตั้งแต่อายุ 20 ปีขึ้นไป สามารถทำได้โดยการชั่งน้ำหนักตัว <br>
+        เป็นกิโลกรัม และวัดส่วนสูงเป็นเซนติเมตร แล้วนำมาหาดัชมีมวลกาย
+    </p>
+    <div class="frm-container">
+        <form>
+            <span>น้ำหนักตัว (kg.)</span> <br>
+            <input type="number" id="weigth" class="input-num"> <br>
+            <span>ส่วนสูง (cm.)</span> <br>
+            <input type="number" id="high" class="input-num"> <br>
+            <input type="button" value="คำนวณ" style="margin-top: 5px;">
+        </form>
+    </div>
+    <hr>
+
+</body>
+
+</html>

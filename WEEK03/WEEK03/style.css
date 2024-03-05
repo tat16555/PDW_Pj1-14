@@ -1,0 +1,33 @@
+/*Universal Selector*/
+*{
+    font-family: 'Charm', cursive;
+}
+/*ID Selector*/
+#Title{
+    color: darkblue;
+    border: solid 2px green;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    background-color: #00CCFF ;
+}
+/*HTML Element Selector*/
+p{
+    color: rgb(0,0,255);
+    font-size: 10px;
+}
+/*Class Selector*/
+.input-num{
+    border: solid 1px green;
+    width: 50px;
+    border-radius: 5px;
+}
+.frm-container{
+    border-bottom: solid 1px blue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

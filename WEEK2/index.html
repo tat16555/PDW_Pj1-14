@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>เครื่องคำนวณหาค่ากัชนีมวลกาย (BMI)</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-3">
+        <h4>เครื่องคำนวณหาค่ากัชนีมวลกาย (BMI)</h4>
+        <form>
+            <form>
+                <div class="mb-3">
+                    <label for="weight" class="form-label">น้ำหนัก (kg.)</label>
+                    <input type="number" class="form-control" id="weight" min="0" max="200" value="0" required>
+                </div>
+                <div class="mb-3">
+                    <label for="height" class="form-label">ส่วนสูง (cm.)</label>
+                    <input type="number" class="form-control" id="height" min="0" max="200" value="0" required>
+                </div>
+                <button type="button" class="btn btn-primary" onclick="calbmi()">คำนวณ</button>
+            </form>
+        </form>
+        <hr>
+        <span>BMI =</span>
+        <span id="bmi"></span> <br>
+        <span>อูย่ในเกณท์ :</span>
+        <span id="result"></span> <br>
+        <span>ภาวะเสี่ยงต่อโรค :</span>
+        <span id="risk"></span> <br>
+    </div>
+    <script src="myfunction.js"></script>
+</body>
+</html>

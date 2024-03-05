@@ -1,0 +1,35 @@
+ /*Universal Selector*/
+ * {
+    font-family: 'Chakra Petch', sans-serif;
+    /* font-family: 'Chakra Petch' sans-serif; */
+}
+
+/*ID Selector*/
+#title {
+    color: black;
+    border: solid 2px black;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 2px;
+    background-color: rgb(255, 115, 195);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+/*HTML Element Selector*/
+p {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+/*Class Selector*/
+.input-num {
+    border: solid 1px black;
+    width: 50px;
+    border-radius: 5px;
+}
+.frm-container {
+    border-bottom: solid 1px black;
+}
+.btn {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
